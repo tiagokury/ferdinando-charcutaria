@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:  'Montserrat', sans-serif;;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+ #main-image {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sub-title {
+    text-align: center;
+    font-family:  'Montserrat', sans-serif;;
+    font-size: 20px;
+}
+#top-menu ul {
+    max-width: 1000px;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(97, 97, 100);
+    text-align: center;
+    font-family:  'Montserrat', sans-serif;;
+    font-size: 15px;
+    border: black solid 2px;
+}
+#top-menu ul li {
+    display: inline;
+}     
+#top-menu ul li a {
+    padding: 20px;
+    color: #fff;
+    display: inline-block;
+    transition: background .4s;
+    text-decoration: none;
+}     
+#top-menu ul li a:hover {
+    background-color: rgb(238, 10, 10);
+}
+#description {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+    font-family:  'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.image {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 30%
+}
+#rodapé  {
+    margin-top: 100px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 3px;
+    border: black solid 2px;
+    background-color: rgb(97, 97, 100)
+}
+#rodapé p {
+    font-family:  'Montserrat', sans-serif;;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
