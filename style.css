@@ -3,69 +3,90 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family:  'Montserrat', sans-serif;;
     src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 }
+
+body {
+  background-color: rgb(248, 248, 255);
+}
+
  #main-image {
     display: block;
-    width: 300px;
+    width: 995px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
-#sub-title {
-    text-align: center;
-    font-family:  'Montserrat', sans-serif;;
-    font-size: 20px;
-}
+
 #top-menu ul {
     max-width: 1000px;
     list-style: none;
     margin: auto;
-    padding: 0;
-    background-color: rgb(97, 97, 100);
+    padding: 0px;
+    background-color: rgb(211, 211, 211);
     text-align: center;
     font-family:  'Montserrat', sans-serif;;
     font-size: 15px;
     border: black solid 2px;
+    border-radius: 10px;
 }
+
 #top-menu ul li {
-    display: inline;
+    display: inline; 
+
 }     
 #top-menu ul li a {
     padding: 20px;
-    color: #fff;
+    color: black;
     display: inline-block;
     transition: background .4s;
     text-decoration: none;
-}     
+}  
+
 #top-menu ul li a:hover {
     background-color: rgb(238, 10, 10);
 }
+
 #description {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-top: 10px;
+    margin-left: 290px;
     text-align: justify;
     font-family:  'Montserrat', sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 248, 255);
 }
-.image {
-    width: 50%;
-    margin-top: 10%;
-    margin-left: 25%;
-    margin-right: 30%
+
+.topicos {
+  margin-bottom: 10px;
 }
+
+#image-1 {
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 290px;
+    border-radius: 10px;
+    float: right;
+}
+
 #rodapé  {
     margin-top: 100px;
     max-width: 1000px;
     margin: auto;
-    padding: 3px;
+    padding: 10px;
     border: black solid 2px;
-    background-color: rgb(97, 97, 100)
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
 }
+
 #rodapé p {
     font-family:  'Montserrat', sans-serif;;
     font-size: 15px;
+    font-style: italic;
     text-align: center;
-    color: #fff;
+    color: black;
 }
